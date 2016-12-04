@@ -1,3 +1,90 @@
-body {
-  background: blue;
+
+
+h1 {
+  font-family: helvetica;
+  font-weight: bold;
+  width: 400px;
+  padding: 20px;
+  border: solid black;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+p {
+  font-family: helvetica;
+  width: 600px;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  width: 580px;
+  height: 370px;
+}
+
+table {
+  border: 2px solid gray;
+  width: 400px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+th {
+  color: orange;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: Helvetica;
+  padding: 10px;
+  margin: 15px;
+  width: 45%;
+  border-bottom: 2px solid gray
+}
+
+tr {
+  color: gray;
+  font-size: 1em;
+  text-align: center;
+  padding 8px;
+  margin:10px;
+  width: 95%;
+  font-family: Helvetica;
+  border: 1px solid gray
+}
+td {
+  border: 1px solid gray
+}
+
+h2.shout {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Helvetica;
+  font-size: 4em;
+  color: red;
+  text-align: center;
+}
+h2.reviews {
+  width: 290px;
+  font-family: Helvetica;
+  font-size: 1.5em;
+  color: red;
+  text-align: center;
+
+}
+ul {
+  width: 240px;
+  display: block;
+
+}
+
+h2.center {
+  width: 450px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  vertical-align: top;
 }
