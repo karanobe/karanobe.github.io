@@ -396,3 +396,12 @@ img.skills-icon {
 footer {
   background-color: #000000;
 }
+
+button.github a {
+  color: white; 
+  text-decoration: none;
+}
+
+button.github {
+  background-color: #000000;
+}
