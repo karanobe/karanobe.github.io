@@ -9,6 +9,7 @@
     <meta name="author" content="">
 
     <title>Karan Oberoi</title>
+    <link rel="icon" href="favicon.png" type="image/png">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -78,9 +79,6 @@
 
     <!-- About -->
     <div id="about">
-      <section class="about-header">
-        <h2 class="section-heading">About Me</h2>
-      </section>
       <section class="about-section-a">
         <div class="container">
           <div class="row">
@@ -116,9 +114,6 @@
 
 <!-- Skills -->
     <div id="skills">
-      <section class="skills-header">
-        <h2 class="section-heading">Key Skills</h2>
-      </section>
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
@@ -151,7 +146,7 @@
           </div>
         </div>
         <!-- row 2 -->
-                <div class="row">
+        <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
               <img class="skills-icon" src="img/portfolio/icons/rails.png">
@@ -163,7 +158,7 @@
             <div class="service-box">
               <img class="skills-icon" src="img/portfolio/icons/bootstrap.png">
               <h3>Bootstrap</h3>
-              <p class="text-muted">I've used Bootstrap for many projects! They have great documentation, their bundled javascript plugins work beautifully, and their extensive list of components make customization simple.</p>
+              <p class="text-muted">I've used Bootstrap for many projects! The documentation is great, the bundled javascript plugins work beautifully, and the extensive list of components make customization simple.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
@@ -185,14 +180,12 @@
     </div>
 
 
-    <section class="portfolio-header" id="portfolio">
-      <h2 class="section-heading">My Projects</h2>
-    </section>
-    <section class="p-0">
+
+    <section class="p-0" id="portfolio">
       <div class="container-fluid">
         <div class="row no-gutter popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.png">
+            <a class="portfolio-box" data-toggle="modal" href="#portfolioModal1">
               <img class="img-fluid" src="img/portfolio/thumbnails/1.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -204,7 +197,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.png">
+            <a class="portfolio-box" data-toggle="modal" href="#portfolioModal2">
               <img class="img-fluid" src="img/portfolio/thumbnails/2.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -216,7 +209,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.png">
+            <a class="portfolio-box" data-toggle="modal" href="#portfolioModal3">
               <img class="img-fluid" src="img/portfolio/thumbnails/3.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -228,7 +221,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.png">
+            <a class="portfolio-box" data-toggle="modal" href="#portfolioModal4">
               <img class="img-fluid" src="img/portfolio/thumbnails/4.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -240,7 +233,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.png">
+            <a class="portfolio-box" data-toggle="modal" href="#portfolioModal5">
               <img class="img-fluid" src="img/portfolio/thumbnails/5.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -252,7 +245,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.png">
+            <a class="portfolio-box" data-toggle="modal" href="#portfolioModal6">
               <img class="img-fluid" src="img/portfolio/thumbnails/6.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -269,8 +262,7 @@
 
     <div class="call-to-action bg-dark">
       <div class="container text-center">
-        <h2>My Resume</h2>
-        <a class="btn btn-default btn-xl sr-button" href="resume/KaranOberoi.Resume.pdf" download>Download Now!</a>
+        <a class="btn btn-default btn-xl sr-button" href="resume/KaranOberoi.Resume.pdf" download>My Resume</a>
       </div>
     </div>
 
@@ -317,6 +309,176 @@
         </div>
       </div>
     </footer>
+
+    <!-- Portfolio Modals -->
+        <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Prathaa Design Studio</h2>
+                  <p class="item-intro text-muted">The lengha has been the favored outfit of noble ladies for many centuries. This comes across in the exquisite and graceful aesthetic of this garment.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/fullsize/1.png" alt="">
+                  <p>We <span style="font-weight: bold">customize</span> fashion wear according to your needs. Client satisfaction is our number one priority. We mix our imagination and creativity to provide you the best. Prathaa is known for providing the latest in elegant fashion wear.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Muze</h2>
+                  <p class="item-intro text-muted">The lengha has been the favored outfit of noble ladies for many centuries. This comes across in the exquisite and graceful aesthetic of this garment.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/fullsize/2.png" alt="">
+                  <p>We <span style="font-weight: bold">customize</span> fashion wear according to your needs. Client satisfaction is our number one priority. We mix our imagination and creativity to provide you the best. Prathaa is known for providing the latest in elegant fashion wear.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Giassani</h2>
+                  <p class="item-intro text-muted">The lengha has been the favored outfit of noble ladies for many centuries. This comes across in the exquisite and graceful aesthetic of this garment.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/fullsize/3.png" alt="">
+                  <p>We <span style="font-weight: bold">customize</span> fashion wear according to your needs. Client satisfaction is our number one priority. We mix our imagination and creativity to provide you the best. Prathaa is known for providing the latest in elegant fashion wear.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>To-Do List</h2>
+                  <p class="item-intro text-muted">The lengha has been the favored outfit of noble ladies for many centuries. This comes across in the exquisite and graceful aesthetic of this garment.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/fullsize/4.png" alt="">
+                  <p>We <span style="font-weight: bold">customize</span> fashion wear according to your needs. Client satisfaction is our number one priority. We mix our imagination and creativity to provide you the best. Prathaa is known for providing the latest in elegant fashion wear.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>The Converter</h2>
+                  <p class="item-intro text-muted">The lengha has been the favored outfit of noble ladies for many centuries. This comes across in the exquisite and graceful aesthetic of this garment.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/fullsize/5.png" alt="">
+                  <p>We <span style="font-weight: bold">customize</span> fashion wear according to your needs. Client satisfaction is our number one priority. We mix our imagination and creativity to provide you the best. Prathaa is known for providing the latest in elegant fashion wear.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Flex</h2>
+                  <p class="item-intro text-muted">The lengha has been the favored outfit of noble ladies for many centuries. This comes across in the exquisite and graceful aesthetic of this garment.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/fullsize/6.png" alt="">
+                  <p>We <span style="font-weight: bold">customize</span> fashion wear according to your needs. Client satisfaction is our number one priority. We mix our imagination and creativity to provide you the best. Prathaa is known for providing the latest in elegant fashion wear.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

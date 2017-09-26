@@ -4675,6 +4675,7 @@ button.close {
   -ms-flex: 1 1 auto;
       flex: 1 1 auto;
   padding: 15px;
+  text-align: center;
 }
 
 .modal-footer {
@@ -4706,7 +4707,7 @@ button.close {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 1000px;
     margin: 30px auto;
   }
   .modal-sm {
