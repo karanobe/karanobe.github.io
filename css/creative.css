@@ -397,9 +397,19 @@ footer {
   background-color: #000000;
 }
 
-button.github a {
-  color: white; 
+a.github {
+  padding: 0.5rem 0.75rem; 
+  border-radius: 300px;
+  background-color: white;
+  color: #F05F40; 
   text-decoration: none;
+  font-weight: 700;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+a.github:hover {
+  background-color: black;
 }
 
 button.github {
