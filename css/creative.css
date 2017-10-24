@@ -344,10 +344,6 @@ header.masthead {
   border-radius: 50%;
 }
 
-a.about {
-  color: #F05F40;
-}
-
 .pair-photo {
   border-radius: 5%;
 }
@@ -357,23 +353,10 @@ a.about {
   position: relative;
 }
 
-.about-section-a {
-  background-color: lightgrey;
-  padding-top: 30px;
+.about-container {
+  margin: auto;
+  width: 70%;
 }
-
-.about-section-b {
-  background-color: whitesmoke;
-  padding-top: 30px;
-}
-
-.about-header {
-  background-color: #0B1127;
-  padding: 25px;
-}
-  .about-header .section-heading {
-    color: white;
-  }
 
 .skills-header {
   background-color: white;
@@ -381,25 +364,38 @@ a.about {
 }
 
 div#skills {
-    background-image: url('../img/space.jpg');
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: fixed;
-    width: 100%;
+    background-color: white;
     padding: 65px; 
 }
 
 .skill {
-  color: white;
+  color: black;
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+div#about {
+    background-image: url('../img/space.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#about {
+  color: white;
+}
+
 img.skills-icon {
   width: 64px;
   height: 64px;
+}
+
+.footer-icon {
+  padding: 10px; 
+  font-size: x-large;
 }
 
 .portfolio-header {
@@ -408,7 +404,13 @@ img.skills-icon {
 }
 
 footer {
+  padding: 20px;
   background-color: #000000;
+}
+
+.top-button {
+  vertical-align: center;
+  float: right;
 }
 
 a.github {
