@@ -33,7 +33,8 @@ h6 {
 p {
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .bg-primary {
   background-color: #F05F40 !important; }
@@ -380,7 +381,20 @@ a.about {
 }
 
 div#skills {
-    padding: 65px;
+    background-image: url('../img/space.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 65px; 
+}
+
+.skill {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 img.skills-icon {
