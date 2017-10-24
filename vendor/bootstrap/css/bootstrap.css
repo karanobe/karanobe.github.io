@@ -5030,7 +5030,7 @@ button.close {
   display: none;
   -ms-flex-align: center;
       align-items: center;
-  width: 100%;
+  width: 30%;
   transition: -webkit-transform 0.6s ease;
   transition: transform 0.6s ease;
   transition: transform 0.6s ease, -webkit-transform 0.6s ease;

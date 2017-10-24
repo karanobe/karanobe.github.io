@@ -442,3 +442,22 @@ button.github {
   margin-right: 50px;
   font-size: -webkit-xxx-large;
 }
+
+.block {
+  display: inline-block;
+}
+
+section.contact {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../img/bg-cta.jpg");
+  background-position: center;
+  background-size: cover; 
+}
+
+.contact-banner {
+  color: white;
+  font-size: 80px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
