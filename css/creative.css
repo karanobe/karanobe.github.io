@@ -431,3 +431,14 @@ a.github:hover {
 button.github {
   background-color: #000000;
 }
+
+.left {
+  margin-left: 50px;
+  font-size: -webkit-xxx-large;
+}
+
+.right {
+  float: right;
+  margin-right: 50px;
+  font-size: -webkit-xxx-large;
+}
