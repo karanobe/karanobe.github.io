@@ -469,3 +469,7 @@ section.contact {
   font-weight: 200;
   letter-spacing: 1px;
 }
+
+section#skills {
+  padding: 0px;
+}

@@ -5030,7 +5030,7 @@ button.close {
   display: none;
   -ms-flex-align: center;
       align-items: center;
-  width: 30%;
+  width: 100%;
   transition: -webkit-transform 0.6s ease;
   transition: transform 0.6s ease;
   transition: transform 0.6s ease, -webkit-transform 0.6s ease;
@@ -5105,7 +5105,7 @@ button.close {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
-  width: 15%;
+  width: 8%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
@@ -5148,7 +5148,7 @@ button.close {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 10px;
+  bottom: -9px;
   left: 0;
   z-index: 15;
   display: -ms-flexbox;
@@ -5417,6 +5417,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .d-block {
   display: block !important;
+  width: 100%;
 }
 
 .d-table {
