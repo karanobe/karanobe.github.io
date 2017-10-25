@@ -385,6 +385,16 @@ div#about {
     background-size: cover;
 }
 
+@media only screen and (max-width: 786px) {
+  div#about { 
+    background-image: url('../img/space.jpg');  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-width: 100%;
+  }
+}
+
 #about {
   color: white;
 }
